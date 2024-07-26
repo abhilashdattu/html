@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logincontainer {
+    height: 80vh;           
+    width: 70vw;            
+    border: 1px solid transparent; 
+    box-shadow: 5px 5px 15px rgba(0.5, 0.5, 0.5, 0.5); 
+    background-color: white; 
+    box-sizing: border-box;
+    margin-left: 5vw;
+}
+.signupcontainer {
+    height: 100vh;           
+    width: 65vw;            
+    border: 1px solid transparent; 
+    box-shadow: 5px 5px 15px rgba(0.5, 0.5, 0.5, 0.5); 
+    background-color: white; 
+    box-sizing: border-box;
+    margin-left: 5vw;
+}
+
+.header_starting{
+    background-color: white;
+    width: 100vw;
+    height: 30px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #edeff2;
+    text-align: center;
+   
+ 
+}
+.head{
+   
+    margin-left: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: #292621;
+    font-family: sans-serif;
+}
+.head1{
+    border-right: 2px;
+    border-style: solid;
+    border-color: #bdcad6;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    align-items: center;
+    transform: transform 0.5s;
+   
+}
+.icon:hover{
+    transform: rotateY(180deg);
+   background-color: rgb(233, 6, 6);
+ 
+}
+.head2{
+    display: flex;
+ 
+}
+.head2:hover{
+    color: red;
+}
+.line {
+    display: inline-block;
+    transition: transform 0.5s linear;
+  }
+   
+  .line:hover {
+    transform: scale(1.2);
+  }
+.colorcontainer{
+    font-family: sans-serif;
+    background-color:#ede2d8 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:20vh
+}
+
+.checkbox{
+    height: 20px;
+    width:20px
+}
+.roundedcheckbox{
+ height:15px;
+ width:15px;
+ border-radius: 15px;
+}
+
+
+.productgrids{
+    display: grid;
+    grid-template-columns: repeat(2,2/3,1,3);
+}
+.longinput{
+    width:80vw;
+}
+
+.brad{
+    box-sizing: border-box;
+
+    
+}

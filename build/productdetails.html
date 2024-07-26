@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="w-full colorcontainer text-center p-10">
+        <h1 class="text-gray-800 text-3xl font-bold">Checkout</h1>
+        <p class="font-thin mt-5 text-sm text-gray-700">Home | Checkout</p>
+    </div>
+    <div class="bg-slate-200 ml-10 mr-10 mt-24 p-2 pl-5 ">
+        <p class="text-sm">Returning Customer? <a href="login.html" class="text-red-600  text-light underline">Click here to login</a></p>
+    </div>
+    <p class="text-sm ml-16 mt-5 font-normal">If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
+    <div class="flex ml-16 mt-6">
+        <input type="email" class="border-2 border-gray-400  w-80 p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin" placeholder="Username or Email *">
+        <input type="password" class="border-2 border-gray-400  w-80 p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin ml-5" placeholder="password *">
+    </div>
+    <div class="flex ml-16 ">
+        <button class="bg-red-500 p-2 pl-6 pr-6 rounded-full text-white mt-4">Login</button>
+        <input type="checkbox" class="checkbox ml-5 mt-6">
+        <p class="ml-5 mt-6">Create an account</p>
+    </div>
+    <div class="bg-slate-200 ml-10 mr-10 mt-14 p-2 pl-5 ">
+        <p class="text-sm">Have a Coupon?  <a href="login.html" class="text-red-600  text-light underline">Click here to enter your code</a></p>
+    </div>
+    <input type="text" class="border-2 border-gray-400  w-3/4 p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin ml-16 mt-9 mr-16" placeholder="Enter your coupon code">
+    <div>
+        <button class="bg-red-500 p-2 pl-6 pr-6 rounded-full text-white mt-4 ml-16">Apply Coupon</button>
+    </div>
+    <div class="grid grid-cols-3 gap-7 mt-7">
+        <div class="col-span-2 bg-white ml-12 p-5 pt-0">
+            <b>Billing details</b>
+            <div class="flex  mt-6">
+                <input type="email" class="border-2 border-gray-400  w-96 p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin" placeholder="First Name *">
+                <input type="password" class="border-2 border-gray-400  w-96 p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin ml-4" placeholder="Last Name *">
+            </div>
+            <input type="text" class="w-full border-2 border-gray-400  p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin mt-9 mr-16" placeholder="Company Name">
+            <div class="flex  mt-9 mr-0">
+                <input type="email" class="border-2 border-gray-400  w-96 p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin" placeholder="Phone Number *">
+                <input type="password" class="border-2 border-gray-400  w-96 p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin ml-4" placeholder="Email address *">
+            </div>
+            <div class="brad flex mt-9 border-2 border-gray-400 rounded-full p-3 justify-between">
+                <input type="text" placeholder="Enter your country">
+                <select class="border-0">
+                    <option></option>
+                    <option>Country</option>
+                    <option>Country</option>
+                    <option>Country</option>
+                </select>
+            </div>
+            <input type="text" class="w-full border-2 border-gray-400  p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin mt-9 mr-16" placeholder="Adress line 01 *">
+            <input type="text" class="w-full border-2 border-gray-400  p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin mt-9 mr-16" placeholder="Adress line 02 *">
+            <input type="text" class="w-full border-2 border-gray-400  p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin mt-9 mr-16" placeholder="Town/City">
+            <div class="brad flex mt-9 border-2 border-gray-400 rounded-full p-3 justify-between">
+                <input type="text" placeholder="Enter your District">
+                <select class="border-0">
+                    <option></option>
+                    <option>District</option>
+                    <option>District</option>
+                    <option>District</option>
+                </select>
+            </div>
+            <input type="text" class="w-full border-2 border-gray-400  p-2 placeholder:text-gray-900 placeholder:text-sm placeholder:font-thin mt-9 mr-16" placeholder="Postcode/ZIP">
+            <div class="flex  ">
+                <input type="checkbox" class="checkbox  mt-6">
+                <p class="ml-5 mt-6">Create an account</p>
+            </div>
+            <h1 class="text-gray-800 text-xl mt-9 font-bold">Shipping details</h1>
+            <div class="flex mt-6 ">
+                <input type="checkbox" class="checkbox  mt-6">
+                <p class="ml-5 mt-6">Ship to a different address?</p>
+            </div>
+        </div>
+        <div class="col-span-1 bg-slate-100 mr-12 pl-3 pt-3 pr-3">
+            <b>Your Orders</b>
+            <hr class="mt-2">
+            <div class="flex justify-between mt-3 mb-3">
+                <p class="text-slate-400 text-xs">Product</p>
+                <p class="text-slate-400 text-xs">Total</p>
+            </div>
+            <hr class="mt-2">
+            <div class="flex justify-between mt-3 mb-3">
+                <p class="text-slate-400 text-xs">Fresh Tomatoes</p>
+                <p class="text-slate-400 text-xs"><b class="text-black">x 20</b>$720</p>
+            </div>
+            <hr class="mt-2">
+            <div class="flex justify-between mt-3 mb-3">
+                <p class="text-slate-400 text-xs">Fresh Brocoli</p>
+                <p class="text-slate-400 text-xs"><b class="text-black">x 20</b>$720</p>
+            </div>
+            <hr class="mt-2">
+            <div class="flex justify-between mt-3 mb-3">
+                <p class="text-slate-400 text-xs">Fresh Blackberries</p>
+                <p class="text-slate-400 text-xs"><b class="text-black">x 20</b>$720</p>
+            </div>
+            <hr class="mt-2">
+            <div class="flex justify-between mt-3 mb-3">
+                <p class="text-slate-400 text-xs"><b class="text-lg text-black font-bold">Subtotal</b></p>
+                <p class="text-slate-400 text-md">$2160</p>
+            </div>
+
+            <hr class="mt-2">
+            <div class="flex justify-between mt-3 mb-3">
+                <p class="text-slate-400 text-md"><b class="text-lg text-black font-bold">Shipping</b></p>
+                <p class="text-slate-400 text-md">Flat rate: $50</p>
+            </div>
+            <hr class="mt-2">
+            <div class="flex justify-between mt-3 mb-3">
+                <p class="text-slate-400 text-xs"><b class="text-lg text-black font-bold">Total</b></p>
+                <p class="text-slate-400 text-xs"><b class="text-lg text-black font-bold">$2210</b></p>
+            </div>
+            <hr>
+            <div class="flex ">
+                <input type="checkbox" class="w-10 roundedcheckbox  mt-6">
+                <p class="ml-5 text-sm mt-6">CHECK PAYMENTS</p>
+            </div>
+            <div class="w-full p-5 bg-white mt-6">
+                <p class="text-sm">Please send a check to Store<br> Name, Store Street, Store Town,<br> Store State / County, Store<br> Postcode.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
