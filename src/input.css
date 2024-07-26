@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 1s;
+    transform-style: flat;
+  }
+   
+  .icon:hover {
+    transform: rotateY(180deg);
+    background-color: red;
+  }
+   
+  .textcolor {
+    color: rgb(96, 68, 68);
+  }
+   
+  .expand {
+    display: inline-block;
+    transition: transform 0.5s linear;
+  }
+   
+  .expand:hover {
+    transform: scale(1.2);
+  }
+   
+  .bgclr{
+
+    background-color: #F3EAD8;
+    text-align: center;
+    height: 25vh;
+    width: 100vw;
+    padding-top: 40px;
+    
+
+  }
+
+.primary:hover{
+
+    background-color: white;
+    border-style: solid;
+    border-width:2px;
+    border-color: #1F2B7B;
+    color: #1F2B7B;
+    cursor: pointer;
+    transition-delay: 0.3s;
+  
+}
+
+.primary2:hover{
+
+   background-color:#1f2b7b;
+    
+    border-style: solid;
+    border-width:2px;
+    border-color: #1F2B7B;
+    color:white;
+    cursor: pointer;
+    transition-delay: 0.3s;
+}
+
+.info:hover{
+  border-color: #38A4FF;
+  color: #38A4FF;
+
+  background-color: white;
+  border-style: solid;
+  border-width:2px;
+  cursor: pointer;
+  transition-delay: 0.3s;
+
+}
+
+.info2:hover{
+
+ background-color:#38A4FF;
+ border-color: #38A4FF;
+  
+  border-style: solid;
+  border-width:2px;
+ 
+  color:white;
+  cursor: pointer;
+  transition-delay: 0.3s;
+}
+
+.success:hover{
+  border-color: #4CD3E3;
+  color: #4CD3E3;
+
+  background-color: white;
+  border-style: solid;
+  border-width:2px;
+  cursor: pointer;
+  transition-delay: 0.3s;
+
+}
+
+.success2:hover{
+
+ background-color:#4CD3E3;
+ border-color: #4CD3E3;
+  
+  border-style: solid;
+  border-width:2px;
+ 
+  color:white;
+  cursor: pointer;
+  transition-delay: 0.3s;
+}
+
+.warning:hover{
+  border-color: #F4E700;
+  color: #F4E700;
+
+  background-color: white;
+  border-style: solid;
+  border-width:2px;
+  cursor: pointer;
+  transition-delay: 0.3s;
+
+}
+
+
+
+.warning2:hover{
+
+ background-color:#F4E700;
+ border-color: #F4E700;
+  
+  border-style: solid;
+  border-width:2px;
+ 
+  color:white;
+  cursor: pointer;
+  transition-delay: 0.3s;
+}
+
+.danger:hover{
+
+  background-color:white;
+  border-color: #F44A40;
+   
+   border-style: solid;
+   border-width:2px;
+  
+   color:#F44A40;
+   cursor: pointer;
+   transition-delay: 0.3s;
+ }
+ 
+ .danger2:hover{
+
+   background-color:#F44A40;
+   color: white;
+   border-style: solid;
+   border-width:2px;
+   cursor: pointer;
+   transition-delay: 0.3s;
+ 
+ } 
+
+ .ft{
+  position: relative;
+  bottom: 40px;
+  left: 350px;
+  color: white;
+}
