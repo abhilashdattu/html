@@ -1,3 +1,159 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 1s;
+    transform-style: flat;
+  }
+   
+  .icon:hover {
+    transform: rotateY(180deg);
+    background-color: red;
+  }
+  .h2-i{
+    color: black;
+  }
+
+   .h2-i:hover{
+        color: red;
+   }
+
+  .textcolor {
+    color: #F3EAD8
+  }
+   
+  .expand {
+    display: inline-block;
+    transition: transform 0.5s linear;
+  }
+   
+  .expand:hover {
+    transform: scale(1.2);
+  }
+  .content{
+    display: flex;
+    height:1200px;
+    width: 100vw;
+    background-color: white;
+  }
+  .sidebar{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    margin-top: 0px;
+    height: 100%;
+    
+    
+  }
+  .sb-1{
+    position: relative;
+    border: 1px solid black;
+    height: 1050px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .but1{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: relative;
+    border-width: 1px;
+    border-color: black;
+    
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    margin-left: 45px;
+  }
+ 
+  .but2{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    top: 10px;
+    margin-left: 20px;
+    position: relative;
+    border-width: 1px;
+    border-color: black;
+    
+  }
+  .but3{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    top: 20px;
+    margin-left: 20px;
+    position: relative;
+    border-width: 1px;
+    border-color: black;
+  }
+  .but4{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    top: 30px;
+    margin-left: 20px;
+    position: relative;
+    border-width: 1px;
+    border-color: black;
+  }
+  
+ s{
+    color: burlywood;
+ }
+.container2{
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+
+}
+.cont-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fg{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 10px;
+}
+.color{
+ accent-color: rgba(255, 0, 0, 0.626);
+}
+.genre{
+ margin-top: 10px;
+ color: red;
+}
+.ft{
+  position: relative;
+  bottom: 40px;
+  left: 350px;
+  color: white;
+}
