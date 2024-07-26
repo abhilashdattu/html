@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 140px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul :hover{
+    color: red;
+    margin: 1px;
+}
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+.user-actions img{
+    width: 30px;
+}
+.user-actions > * {
+    margin-left: 15px;
+}
+.sale-banner {
+    background: linear-gradient(to right, #333, #000);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.contact-header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f1ecec;
+}
+.contact-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+.breadcrumb {
+    margin-top: 10px;
+}
+.error-message {
+    text-align: center;
+    padding: 40px 0;
+    margin: 100px;
+    background-color: #cfcccc;
+    font-size: small;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.contact-form {
+    width: 60%;
+}
+.contact-info {
+    width: 35%;
+}
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+textarea {
+    height: 150px;
+}
+button {
+    background-color: white;
+    color: #ff6b6b;
+    border: 2px solid #ff6b6b;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button :hover{
+    background-color: red;
+}
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.contact-item i {
+    margin-right: 10px;
+    color: #333;
+}
+.contact-text {
+    font-size: small;
+}
+.contact-text strong {
+    display: block;
+    margin-bottom: 5px;
+}
+.footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+.newsletter {
+    background-color: #16213e;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.newsletter h2 {
+    margin: 0;
+}
+.newsletter p {
+    margin: 5px 0 0;
+}
+.subscribe-form {
+    display: flex;
+}
+.subscribe-form input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+}
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    flex: 1;
+    margin-right: 20px;
+    font-size: small;
+}
+.footer h3 {
+    margin-top: 0;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer ul li {
+    margin-bottom: 10px;
+}
+.social-icons {
+    text-align: right;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #e94560;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}

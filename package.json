@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  },
+  "name": "contact",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "built": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vite": "^5.3.4"
+  }
+}
