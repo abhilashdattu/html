@@ -1,3 +1,265 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    overflow-x: hidden;
+    
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 1s;
+    transform-style: flat;
+}
+   
+.icon:hover {
+    transform: rotateY(180deg);
+    background-color: red;
+}
+   
+.textcolor {
+    color: rgb(96, 68, 68);
+}
+   
+.expand {
+    display: inline-block;
+    transition: transform 0.5s linear;
+}
+   
+.expand:hover {
+    transform: scale(1.2);
+}
+.blog{
+    background-color: #f3ead8;
+}
+.tra{
+    display: flex;
+    position: relative;
+    left: 80px;
+    bottom: 21px;
+}
+.tra1{
+    display: flex;
+    position: relative;
+    left: 240px;
+    top: -60px;
+}
+.para{
+    margin-top: -35px;
+}
+.box{
+    border: 25px solid;
+    color: rgb(209, 203, 203);
+    padding: 20px;
+    width: 683px;
+    height: 200px;
+    
+}
+.searchbar{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    margin-left: 850px;
+    border: 2px solid;
+    margin-top: -340px;
+}
+.button{
+    border: 2px solid;
+    margin-top: -1px;
+    margin-left: 50px;
+    height: 48px;
+    width: 80px;
+}
+.color1{
+    margin: 50px;
+    width: 550px;
+    height: 120px;
+    position: relative;
+    
+    background-color: #fbf9ff;
+}
+.names{
+    margin-left: 850px;
+    width: 330px;
+    position: relative;
+    bottom: 1130px;
+
+}
+.box2{
+    width: 360px;
+    height: auto;
+    position: absolute;
+    top: 120%;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    border: 1px solid;
+    height: 10px;
+    width: 100%;
+    border-radius: 40px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container::after {
+    content: '→'; 
+    position: absolute;
+    top: 65%;
+    right:7px;
+    transform: translateY(-50%);
+    font-size: 50px; 
+    color: rgb(152, 23, 23);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+.image-container:hover::after {
+    opacity: 1; 
+}
+.image-container1{
+    position: relative;
+    display: inline-block;
+}
+.image-container1::after{
+    content: '←';
+    position: absolute;
+    top: 65%;
+    right: 7px;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: rgb(152, 23, 23);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.image-container1:hover::after {
+    opacity: 1; 
+}
+.profile{
+    width: 700px;
+}
+.reply{
+    width: 690px;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+.reply1{
+    width: 320px;
+    height: 50px;
+    border: 1px solid; 
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.reply2{
+    width: 310px;
+    height: 50px;
+    border: 1px solid; 
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.reply3{
+    width: 690px;
+    height: 50px;
+    border: 1px solid; 
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.post{
+    border: 2px solid;
+    border-color: red;
+    color: red;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.post:hover{
+    color: white;
+}
+.line1{
+    
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.line1:hover{
+    background-color: red;
+    color: white;
+}
+.insta{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    left: 390px;
+    top: 200px;
+    
+}
+.new1{
+    width: 320px;
+    height: 300px;
+    margin-left: 835px;
+    margin-top: -80px;
+    
+}
+.new{
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.sub{
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1px solid;
+    border-color: red;
+    color: red;
+}
+.sub:hover{
+    background-color: red;
+    color: white;
+}
+.last{
+    width: 330px;
+    height: 60px;
+    margin-left: 450px;
+}
+.recent{
+    width: 320px;
+    height: 420px;
+    margin-top: 370px;
+    right: 18px;
+}
+.crt{
+    width: 700px;
+}
+.final{
+    width: 310px;
+    height: 380px;
+    top: 150px;
+    left: 30px;
+}
+.final1{
+    font-size: 20px;
+}
+.sc{
+    
+    border: 1px solid;
+    width: 310px;
+    height: 50px;
+}
+.sc:hover{
+    color: red;
+}
+.ft{
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+    color: white;
+  }
+
